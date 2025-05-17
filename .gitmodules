@@ -1,0 +1,12 @@
+[submodule "ExecutiveMainLoop"]
+	path = ExecutiveMainLoop
+	url = https://github.com/Cyclone-Robosub/ExecutiveMainLoop.git
+[submodule "Research_Cyclone"]
+	path = Research_Cyclone
+	url = https://github.com/Cyclone-Robosub/Research_Cyclone.git
+[submodule "inertial-sense-sdk"]
+	path = inertial-sense-sdk
+	url = https://github.com/Cyclone-Robosub/inertial-sense-sdk.git
+[submodule "Thrust-Control"]
+	path = Thrust-Control
+	url = https://github.com/Cyclone-Robosub/Thrust-Control.git
