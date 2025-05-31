@@ -15,8 +15,9 @@ cd ../
 chmod +x startuppy.sh
 cd ../
 
-cd Thrust-Control
-cd ../
+cd Thrust-Control/script
+./rmBuild.sh & 
+cd ../../
 
 cd StateSaver
 colcon build &
