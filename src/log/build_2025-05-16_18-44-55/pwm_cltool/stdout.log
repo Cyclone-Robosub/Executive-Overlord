@@ -1,0 +1,48 @@
+running egg_info
+creating ../build/pwm_cltool/pwm_cltool.egg-info
+writing ../build/pwm_cltool/pwm_cltool.egg-info/PKG-INFO
+writing dependency_links to ../build/pwm_cltool/pwm_cltool.egg-info/dependency_links.txt
+writing entry points to ../build/pwm_cltool/pwm_cltool.egg-info/entry_points.txt
+writing requirements to ../build/pwm_cltool/pwm_cltool.egg-info/requires.txt
+writing top-level names to ../build/pwm_cltool/pwm_cltool.egg-info/top_level.txt
+writing manifest file '../build/pwm_cltool/pwm_cltool.egg-info/SOURCES.txt'
+reading manifest file '../build/pwm_cltool/pwm_cltool.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/pwm_cltool/pwm_cltool.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zenyn/Executive-Overlord/src/build/pwm_cltool/build
+creating /home/zenyn/Executive-Overlord/src/build/pwm_cltool/build/lib
+creating /home/zenyn/Executive-Overlord/src/build/pwm_cltool/build/lib/pwm_cltool
+copying pwm_cltool/pwm_publisher.py -> /home/zenyn/Executive-Overlord/src/build/pwm_cltool/build/lib/pwm_cltool
+copying pwm_cltool/__init__.py -> /home/zenyn/Executive-Overlord/src/build/pwm_cltool/build/lib/pwm_cltool
+copying pwm_cltool/plant.py -> /home/zenyn/Executive-Overlord/src/build/pwm_cltool/build/lib/pwm_cltool
+copying pwm_cltool/pwm_cltool.py -> /home/zenyn/Executive-Overlord/src/build/pwm_cltool/build/lib/pwm_cltool
+copying pwm_cltool/main.py -> /home/zenyn/Executive-Overlord/src/build/pwm_cltool/build/lib/pwm_cltool
+copying pwm_cltool/runner.py -> /home/zenyn/Executive-Overlord/src/build/pwm_cltool/build/lib/pwm_cltool
+running install
+running install_lib
+creating /home/zenyn/Executive-Overlord/src/install/pwm_cltool/lib/python3.12/site-packages/pwm_cltool
+copying /home/zenyn/Executive-Overlord/src/build/pwm_cltool/build/lib/pwm_cltool/pwm_publisher.py -> /home/zenyn/Executive-Overlord/src/install/pwm_cltool/lib/python3.12/site-packages/pwm_cltool
+copying /home/zenyn/Executive-Overlord/src/build/pwm_cltool/build/lib/pwm_cltool/__init__.py -> /home/zenyn/Executive-Overlord/src/install/pwm_cltool/lib/python3.12/site-packages/pwm_cltool
+copying /home/zenyn/Executive-Overlord/src/build/pwm_cltool/build/lib/pwm_cltool/plant.py -> /home/zenyn/Executive-Overlord/src/install/pwm_cltool/lib/python3.12/site-packages/pwm_cltool
+copying /home/zenyn/Executive-Overlord/src/build/pwm_cltool/build/lib/pwm_cltool/pwm_cltool.py -> /home/zenyn/Executive-Overlord/src/install/pwm_cltool/lib/python3.12/site-packages/pwm_cltool
+copying /home/zenyn/Executive-Overlord/src/build/pwm_cltool/build/lib/pwm_cltool/main.py -> /home/zenyn/Executive-Overlord/src/install/pwm_cltool/lib/python3.12/site-packages/pwm_cltool
+copying /home/zenyn/Executive-Overlord/src/build/pwm_cltool/build/lib/pwm_cltool/runner.py -> /home/zenyn/Executive-Overlord/src/install/pwm_cltool/lib/python3.12/site-packages/pwm_cltool
+byte-compiling /home/zenyn/Executive-Overlord/src/install/pwm_cltool/lib/python3.12/site-packages/pwm_cltool/pwm_publisher.py to pwm_publisher.cpython-312.pyc
+byte-compiling /home/zenyn/Executive-Overlord/src/install/pwm_cltool/lib/python3.12/site-packages/pwm_cltool/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/zenyn/Executive-Overlord/src/install/pwm_cltool/lib/python3.12/site-packages/pwm_cltool/plant.py to plant.cpython-312.pyc
+byte-compiling /home/zenyn/Executive-Overlord/src/install/pwm_cltool/lib/python3.12/site-packages/pwm_cltool/pwm_cltool.py to pwm_cltool.cpython-312.pyc
+byte-compiling /home/zenyn/Executive-Overlord/src/install/pwm_cltool/lib/python3.12/site-packages/pwm_cltool/main.py to main.cpython-312.pyc
+byte-compiling /home/zenyn/Executive-Overlord/src/install/pwm_cltool/lib/python3.12/site-packages/pwm_cltool/runner.py to runner.cpython-312.pyc
+running install_data
+creating /home/zenyn/Executive-Overlord/src/install/pwm_cltool/share/ament_index
+creating /home/zenyn/Executive-Overlord/src/install/pwm_cltool/share/ament_index/resource_index
+creating /home/zenyn/Executive-Overlord/src/install/pwm_cltool/share/ament_index/resource_index/packages
+copying resource/pwm_cltool -> /home/zenyn/Executive-Overlord/src/install/pwm_cltool/share/ament_index/resource_index/packages
+copying package.xml -> /home/zenyn/Executive-Overlord/src/install/pwm_cltool/share/pwm_cltool
+running install_egg_info
+Copying ../build/pwm_cltool/pwm_cltool.egg-info to /home/zenyn/Executive-Overlord/src/install/pwm_cltool/lib/python3.12/site-packages/pwm_cltool-0.0.0-py3.12.egg-info
+running install_scripts
+Installing pwm_cltool_node script to /home/zenyn/Executive-Overlord/src/install/pwm_cltool/lib/pwm_cltool
+writing list of installed files to '/home/zenyn/Executive-Overlord/src/build/pwm_cltool/install.log'
