@@ -4,7 +4,8 @@ killgroup(){
   kill 0
 }
 
-cd ../
+cd src/
+
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 
