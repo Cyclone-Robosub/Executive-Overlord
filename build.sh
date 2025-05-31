@@ -19,6 +19,10 @@ cd Thrust-Control/script
 ./rmBuild.sh & 
 cd ../../
 
+cd Robosub-CLTool/script
+./build.sh &
+cd ../../
+
 cd StateSaver
 colcon build &
 cd ../
