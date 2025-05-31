@@ -7,13 +7,15 @@ killgroup(){
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 
-cd src/
+cd ../
 
 cd Research_Cyclone/src
 colcon build &
 cd ../
 chmod +x startuppy.sh
 cd ../
+
+cd src/
 
 cd ros2_ws/src/
 colcon build &
