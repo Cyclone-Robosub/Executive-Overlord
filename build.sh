@@ -4,10 +4,11 @@ killgroup(){
     kill 0 
 }
 
-source /opt/ros/jazzy/setup.bash
-source install/setup.bash
+
 
 cd ../
+source /opt/ros/jazzy/setup.bash
+source install/setup.bash
 
 cd Research_Cyclone/src
 colcon build &
