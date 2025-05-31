@@ -1,1 +1,29 @@
+# Executables
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Libraries
+*.lib
+*.a
+*.so
+*.dll
+*.dylib
+
+# Editor Stuff
+*.swp
+
+# Dependency directories (if you use them)
+/libs/
+/external/
+
+# Build directories
+/build/
+/bin/
+
+# System files
+.DS_Store
 .vscode
