@@ -14,7 +14,12 @@ cd ros2_ws/src/
 ./inertial_sense_ros2_node > IMUross.txt &
 cd ../ ../../../
 
+cd Thrust-Control/script/
+./startup.sh &
+cd ../../
 
-cd ClTool
-python3 -i Python_CL_Tool.py
+cd Robosub-ClTool/script
+./run.sh & 
+cd ../../
+
 wait
