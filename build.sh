@@ -6,7 +6,7 @@ killgroup(){
 
 
 
-cd ../
+cd ../ # Gets out of Exexecutive-Overload
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 
@@ -15,6 +15,7 @@ colcon build &
 cd ../
 chmod +x startuppy.sh
 cd ../
+cd Executive-Overlord/
 
 cd src/
 
