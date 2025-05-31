@@ -10,3 +10,9 @@
 [submodule "Thrust-Control"]
 	path = Thrust-Control
 	url = https://github.com/Cyclone-Robosub/Thrust-Control.git
+[submodule "src/Robosub-CLTool"]
+	path = src/Robosub-CLTool
+	url = https://github.com/Cyclone-Robosub/Robosub-CLTool.git
+[submodule "src/crs_common"]
+	path = src/crs_common
+	url = https://github.com/Cyclone-Robosub/crs_common.git
