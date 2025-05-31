@@ -1,23 +1,20 @@
 trap killgroup SIGINT
 
 killgroup(){
-    kill 0 
+  kill 0
 }
 
 cd ../
-
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 
-cd /Research_Cyclone/src
-colcon build &
-cd ../
-chmod +x startuppy.sh
-cd ../
+cd inertialsense
+cd ros2_ws/src/
+. install/setup.bash
+./inertial_sense_ros2_node > IMUross.txt &
+cd ../ ../../../
 
-cd Thrust-Control
-cd ../
 
-cd StateSaver
-colcon build &
-cd ../
+cd ClTool
+python3 -i Python_CL_Tool.py
+wait
