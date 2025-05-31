@@ -15,6 +15,11 @@ cd ../
 chmod +x startuppy.sh
 cd ../
 
+cd ros2_ws/src/
+colcon build &
+cd ../../
+
+
 cd Thrust-Control/script
 ./rmBuild.sh & 
 cd ../../
