@@ -1,4 +1,0 @@
-source;share/crs_ros2_interfaces/local_setup.bash
-source;share/crs_ros2_interfaces/local_setup.dsv
-source;share/crs_ros2_interfaces/local_setup.sh
-source;share/crs_ros2_interfaces/local_setup.zsh

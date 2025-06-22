@@ -1,6 +1,0 @@
-{
-  "package_name": "crs_ros2_interfaces",
-  "non_idl_tuples": [
-    "/home/zenyn/Executive-Overlord/src/crs_common/crs_ros2_interfaces:msg/PwmCmd.msg"
-  ]
-}
