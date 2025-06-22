@@ -1,21 +1,21 @@
 [submodule "ExecutiveMainLoop"]
 	path = ExecutiveMainLoop
 	url = https://github.com/Cyclone-Robosub/ExecutiveMainLoop.git
-[submodule "Research_Cyclone"]
-	path = Research_Cyclone
-	url = https://github.com/Cyclone-Robosub/Research_Cyclone.git
-[submodule "inertial-sense-sdk"]
-	path = inertial-sense-sdk
+[submodule "Thrust-Control"]
+	path = Thrust-Control
+	url = https://github.com/Cyclone-Robosub/Thrust-Control.git
+[submodule "StateSaver"]
+	path = StateSaver
+	url = https://github.com/Cyclone-Robosub/StateSaver.git
+[submodule "ros2_ws/src/inertial-sense-sdk"]
+	path = ros2_ws/src/inertial-sense-sdk
 	url = https://github.com/Cyclone-Robosub/inertial-sense-sdk.git
 [submodule "Robosub-CLTool"]
 	path = Robosub-CLTool
 	url = https://github.com/Cyclone-Robosub/Robosub-CLTool.git
+[submodule "Research_Cyclone"]
+	path = Research_Cyclone
+	url = https://github.com/Cyclone-Robosub/Research_Cyclone.git
 [submodule "crs_common"]
 	path = crs_common
 	url = https://github.com/Cyclone-Robosub/crs_common.git
-[submodule "StateSaver"]
-	path = StateSaver
-	url = https://github.com/Cyclone-Robosub/StateSaver.git
-[submodule "Thrust-Control"]
-	path = Thrust-Control
-	url = https://github.com/Cyclone-Robosub/Thrust-Control.git
