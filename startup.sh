@@ -3,8 +3,7 @@ trap killgroup SIGINT
 killgroup(){
   kill 0
 }
-
-
+#NOTE : After the end of every section make sure the directory returns to the directory that this build script is located.
 
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
