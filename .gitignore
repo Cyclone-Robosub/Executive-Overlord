@@ -27,3 +27,6 @@
 # System files
 .DS_Store
 .vscode
+ros2_ws/src/build
+ros2_ws/src/install
+ros2_ws/src/log
