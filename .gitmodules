@@ -7,9 +7,6 @@
 [submodule "StateSaver"]
 	path = ros2_ws/src/StateSaver
 	url = https://github.com/Cyclone-Robosub/StateSaver.git
-[submodule "ros2_ws/src/inertial-sense-sdk"]
-	path = ros2_ws/src/inertial-sense-sdk
-	url = https://github.com/Cyclone-Robosub/inertial-sense-sdk.git
 [submodule "Robosub-CLTool"]
 	path = ros2_ws/src/Robosub-CLTool
 	url = https://github.com/Cyclone-Robosub/Robosub-CLTool.git
