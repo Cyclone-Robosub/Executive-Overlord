@@ -16,3 +16,6 @@
 [submodule "crs_common"]
 	path = ros2_ws/src/crs_common
 	url = https://github.com/Cyclone-Robosub/crs_common.git
+[submodule "Battery_Management"]
+	path = Battery_Management
+	url = https://github.com/Cyclone-Robosub/Battery_Management.git
