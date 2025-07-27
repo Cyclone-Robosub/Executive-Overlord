@@ -8,6 +8,15 @@ export ROS_DOMAIN_ID=2
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 
+cd ros2_ws/src
+
+#Start of StateSaver build
+cd StateSaver
+colcon build &
+cd ../
+#End of StateSaver build
+
+
 #Start of Research build
 cd Research_Cyclone/src
 colcon build &
@@ -17,11 +26,19 @@ cd ../
 #End of Research Build 
 
 #Start of inertial sense build
-cd ros2_ws/src/
-sudo ln -s inertial-sense-sdk/ROS/ros2
+cd inertial-sense-sdk
 colcon build 
-cd ../../
+cd ../
+cd ros2
+colcon build &
+cd ../
 #End of inertial sense build
+
+#Battery Management
+cd Battery_Management
+colcon build &
+cd ../
+
 
 #Start of Thrust Control Build
 cd Thrust-Control
@@ -36,10 +53,9 @@ chmod +x build.sh
 cd ../../
 #End of CLTool build
 
-#Start of StateSaver build
-cd StateSaver
+#ExecutiveMainLoop
+cd ExecutiveMainLoop
 colcon build &
-cd ../
-#End of StateSaver build
+cd ..
 
 wait
