@@ -19,3 +19,6 @@
 [submodule "Battery_Management"]
 	path = ros2_ws/src/Battery_Management
 	url = https://github.com/Cyclone-Robosub/Battery_Management.git
+[submodule "ros2_ws/src/nucleus_driver"]
+	path = ros2_ws/src/nucleus_driver
+	url = https://github.com/NortekSupport/nucleus_driver.git
