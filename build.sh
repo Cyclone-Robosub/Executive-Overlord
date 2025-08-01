@@ -54,8 +54,8 @@ cd ../../
 #End of CLTool build
 
 #ExecutiveMainLoop
-cd ExecutiveMainLoop
-colcon build &
-cd ..
+cd ExecutiveMainLoop/scripts
+./build.sh & 
+cd ../..
 
 wait
