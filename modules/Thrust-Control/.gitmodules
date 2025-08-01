@@ -1,0 +1,13 @@
+[submodule "crs_common"]
+	path = include/crs_common
+	url = https://github.com/Cyclone-Robosub/crs_common.git
+[submodule "include/Command_Interpreter"]
+	path = include/Command_Interpreter
+	url = https://github.com/Cyclone-Robosub/Command_Interpreter.git
+
+[submodule "include/exported-PID-control"]
+	path = include/exported-PID-control
+	url = https://github.com/Cyclone-Robosub/exported-PID-control.git
+[submodule "include/exported_waypoint_follower"]
+	path = include/exported_waypoint_follower
+	url = https://github.com/Cyclone-Robosub/exported_waypoint_follower.git
