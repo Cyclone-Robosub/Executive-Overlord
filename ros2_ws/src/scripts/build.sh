@@ -10,8 +10,12 @@ cd ../..
 colcon build \
   --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
   --packages-select  \
+  crs_dvl \
+  crs_ros2_interfaces \
   interfaces \
   nucleus_driver_ros2 \
-  crs_nucleus_temp \
+  thrust_control \
+  state_saver
+  # battery_management
 
 . install/setup.bash

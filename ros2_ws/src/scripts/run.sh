@@ -21,5 +21,10 @@ export PYTHONPATH=$PYTHONPATH:$PWD/nucleus_driver/ros2/venv/lib/python3.12/site-
 
 ros2 run nucleus_driver_ros2 nucleus_node &
 
+ros2 run crs_dvl crs_dvl &
+
+ros2 run state_saver state_saver &
+
+ros2 run thrust_control thrust_control &
 
 wait

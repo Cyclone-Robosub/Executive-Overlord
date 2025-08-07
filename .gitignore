@@ -33,3 +33,6 @@ ros2_ws/src/log
 
 install 
 log
+
+# clangd stuff
+.cache/
