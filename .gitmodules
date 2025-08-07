@@ -1,6 +1,3 @@
-[submodule "ExecutiveMainLoop"]
-	path = ros2_ws/src/ExecutiveMainLoop
-	url = https://github.com/Cyclone-Robosub/ExecutiveMainLoop.git
 [submodule "Thrust-Control"]
 	path = ros2_ws/src/Thrust-Control
 	url = https://github.com/Cyclone-Robosub/Thrust-Control.git
