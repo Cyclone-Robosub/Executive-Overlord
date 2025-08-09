@@ -22,3 +22,9 @@
 [submodule "ros2_ws/src/crs_dvl"]
 	path = ros2_ws/src/crs_dvl
 	url = https://github.com/Cyclone-Robosub/crs_dvl.git
+[submodule "ros2_ws/CycloneDashboard"]
+	path = ros2_ws/CycloneDashboard
+	url = https://github.com/Cyclone-Robosub/CycloneDashboard.git
+[submodule "ros2_ws/src/CycloneDashboard"]
+	path = ros2_ws/src/CycloneDashboard
+	url = https://github.com/Cyclone-Robosub/CycloneDashboard.git
