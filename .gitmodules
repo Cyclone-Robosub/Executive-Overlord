@@ -1,30 +1,27 @@
 [submodule "Thrust-Control"]
-	path = ros2_ws/src/Thrust-Control
+	path = include/Thrust-Control
 	url = https://github.com/Cyclone-Robosub/Thrust-Control.git
 [submodule "StateSaver"]
-	path = ros2_ws/src/StateSaver
+	path = include/StateSaver
 	url = https://github.com/Cyclone-Robosub/StateSaver.git
 [submodule "Robosub-CLTool"]
-	path = ros2_ws/src/Robosub-CLTool
+	path = include/Robosub-CLTool
 	url = https://github.com/Cyclone-Robosub/Robosub-CLTool.git
 [submodule "Research_Cyclone"]
-	path = ros2_ws/src/Research_Cyclone
+	path = include/Research_Cyclone
 	url = https://github.com/Cyclone-Robosub/Research_Cyclone.git
 [submodule "crs_common"]
-	path = ros2_ws/src/crs_common
+	path = include/crs_common
 	url = https://github.com/Cyclone-Robosub/crs_common.git
 [submodule "Battery_Management"]
-	path = ros2_ws/src/Battery_Management
+	path = include/Battery_Management
 	url = https://github.com/Cyclone-Robosub/Battery_Management.git
-[submodule "ros2_ws/src/nucleus_driver"]
-	path = ros2_ws/src/nucleus_driver
+[submodule "nucleus_driver"]
+	path = include/nucleus_driver
 	url = https://github.com/NortekSupport/nucleus_driver.git
-[submodule "ros2_ws/src/crs_dvl"]
-	path = ros2_ws/src/crs_dvl
+[submodule "crs_dvl"]
+	path = include/crs_dvl
 	url = https://github.com/Cyclone-Robosub/crs_dvl.git
-[submodule "ros2_ws/CycloneDashboard"]
-	path = ros2_ws/CycloneDashboard
-	url = https://github.com/Cyclone-Robosub/CycloneDashboard.git
-[submodule "ros2_ws/src/CycloneDashboard"]
-	path = ros2_ws/src/CycloneDashboard
+[submodule "CycloneDashboard"]
+	path = include/CycloneDashboard
 	url = https://github.com/Cyclone-Robosub/CycloneDashboard.git
