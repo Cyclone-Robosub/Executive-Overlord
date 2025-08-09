@@ -1,18 +1,9 @@
 [submodule "Thrust-Control"]
 	path = include/Thrust-Control
 	url = https://github.com/Cyclone-Robosub/Thrust-Control.git
-[submodule "includeStateSaver"]
-	path = include/StateSaver
-	url = https://github.com/Cyclone-Robosub/StateSaver.git
-[submodule "include/Robosub-CLTool"]
-	path = include/Robosub-CLTool
-	url = https://github.com/Cyclone-Robosub/Robosub-CLTool.git
 [submodule "include/Research_Cyclone"]
 	path = include/Research_Cyclone
 	url = https://github.com/Cyclone-Robosub/Research_Cyclone.git
-[submodule "include/crs_common"]
-	path = include/crs_common
-	url = https://github.com/Cyclone-Robosub/crs_common.git
 [submodule "include/Battery_Management"]
 	path = include/Battery_Management
 	url = https://github.com/Cyclone-Robosub/Battery_Management.git

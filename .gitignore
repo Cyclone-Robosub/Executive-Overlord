@@ -36,3 +36,6 @@ log
 
 # clangd stuff
 .cache/
+
+# Virtual environment
+venv/

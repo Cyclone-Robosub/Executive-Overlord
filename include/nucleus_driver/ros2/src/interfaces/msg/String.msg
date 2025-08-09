@@ -1,3 +1,0 @@
-builtin_interfaces/Time system_timestamp
-
-string string_data
