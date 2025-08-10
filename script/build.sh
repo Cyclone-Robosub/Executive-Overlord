@@ -15,9 +15,10 @@ colcon build \
   interfaces \
   nucleus_driver_ros2 \
   thrust_control \
-  state_saver
-  # battery_management
-
+  state_saver \
+  battery_management \
+  cyclone_dashboard \
+  
 . install/setup.bash
 
 cd ..
