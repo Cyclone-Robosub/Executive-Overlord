@@ -11,6 +11,7 @@ colcon build \
   --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
   --packages-select  \
   crs_dvl \
+  crs_common \
   crs_ros2_interfaces \
   interfaces \
   nucleus_driver_ros2 \
