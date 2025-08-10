@@ -39,3 +39,6 @@ log
 
 # Virtual environment
 venv/
+
+# Output Files
+state.csv
