@@ -7,9 +7,6 @@
 [submodule "CycloneDashboard"]
 	path = src/CycloneDashboard
 	url = https://github.com/Cyclone-Robosub/CycloneDashboard.git
-[submodule "nucleus_driver"]
-	path = src/nucleus_driver
-	url = https://github.com/NortekSupport/nucleus_driver.git
 [submodule "CycloneDashboard"]
 	path = src/CycloneDashboard
 	url = https://github.com/Cyclone-Robosub/CycloneDashboard.git
