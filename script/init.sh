@@ -2,7 +2,7 @@
 
 
 # Nucleus stuff
-cd nucleus_driver/ros2
+cd src/nucleus_driver/ros2
 
 # setup venv for nucleus_driver
 # this may be unecessary on the pi, but idk
@@ -14,7 +14,7 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 
 # navigate back to root
-cd ../..
+cd ../../..
 
 
 # source ros

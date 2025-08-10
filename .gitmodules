@@ -1,36 +1,18 @@
 [submodule "Thrust-Control"]
-	path = include/Thrust-Control
-	url = https://github.com/Cyclone-Robosub/Thrust-Control.git
-[submodule "include/Research_Cyclone"]
-	path = include/Research_Cyclone
-	url = https://github.com/Cyclone-Robosub/Research_Cyclone.git
-[submodule "include/Battery_Management"]
-	path = include/Battery_Management
-	url = https://github.com/Cyclone-Robosub/Battery_Management.git
-[submodule "include/nucleus_driver"]
-	path = include/nucleus_driver
-	url = https://github.com/Cyclone-Robosub/Research_Cyclone.git
-[submodule "include/crs_dvl"]
-	path = include/crs_dvl
-	url = https://github.com/Cyclone-Robosub/crs_dvl.git
-[submodule "include/CycloneDashboard"]
-	path = include/CycloneDashboard
-	url = https://github.com/Cyclone-Robosub/CycloneDashboard.git
-[submodule "include/nucleus_driver"]
-	path = include/nucleus_driver
-	url = https://github.com/NortekSupport/nucleus_driver.git
-[submodule "include/crs_dvl"]
-	path = include/crs_dvl
-	url = https://github.com/Cyclone-Robosub/crs_dvl.git
-[submodule "include/CycloneDashboard"]
-	path = include/CycloneDashboard
-	url = https://github.com/Cyclone-Robosub/CycloneDashboard.git
-[submodule "include/Thrust-Control"]
-	path = include/Thrust-Control
-	url = https://github.com/Cyclone-Robosub/Thrust-Control.git
-[submodule "src/Thrust-Control"]
 	path = src/Thrust-Control
 	url = https://github.com/Cyclone-Robosub/Thrust-Control.git
+[submodule "crs_dvl"]
+	path = src/crs_dvl
+	url = https://github.com/Cyclone-Robosub/crs_dvl.git
+[submodule "CycloneDashboard"]
+	path = src/CycloneDashboard
+	url = https://github.com/Cyclone-Robosub/CycloneDashboard.git
+[submodule "nucleus_driver"]
+	path = src/nucleus_driver
+	url = https://github.com/NortekSupport/nucleus_driver.git
+[submodule "CycloneDashboard"]
+	path = src/CycloneDashboard
+	url = https://github.com/Cyclone-Robosub/CycloneDashboard.git
 [submodule "src/StateSaver"]
 	path = src/StateSaver
 	url = https://github.com/Cyclone-Robosub/StateSaver.git
@@ -48,23 +30,4 @@
 	url = https://github.com/Cyclone-Robosub/Battery_Management.git
 [submodule "src/nucleus_driver"]
 	path = src/nucleus_driver
-	url = https://github.com/Cyclone-Robosub/Research_Cyclone.git
-[submodule "src/crs_dvl"]
-	path = src/crs_dvl
-	url = https://github.com/Cyclone-Robosub/crs_dvl.git
-[submodule "src/CycloneDashboard"]
-	path = src/CycloneDashboard
-	url = https://github.com/Cyclone-Robosub/CycloneDashboard.git
-[submodule "src/nucleus_driver"]
-	path = src/nucleus_driver
 	url = https://github.com/NortekSupport/nucleus_driver.git
-[submodule "src/crs_dvl"]
-	path = src/crs_dvl
-	url = https://github.com/Cyclone-Robosub/crs_dvl.git
-[submodule "src/CycloneDashboard"]
-	path = src/CycloneDashboard
-	url = https://github.com/Cyclone-Robosub/CycloneDashboard.git
-[submodule "src/Thrust-Control"]
-	path = src/Thrust-Control
-	url = https://github.com/Cyclone-Robosub/Thrust-Control.git
-

@@ -1,2 +1,10 @@
 . script/build.sh
-./build/thrust_control/thrust_control_tests
+
+cd src/Thrust-Control
+. script/runTests.sh
+
+cd ../Robosub-CLTool
+. script/test_detailed.sh
+
+
+cd ../..

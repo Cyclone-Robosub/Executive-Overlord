@@ -2,7 +2,7 @@
 source /opt/ros/jazzy/setup.bash
 
 # source nucleus_drivers venv
-cd nucleus_driver/ros2
+cd src/nucleus_driver/ros2
 source venv/bin/activate
 
 cd ../..
@@ -19,3 +19,5 @@ colcon build \
   # battery_management
 
 . install/setup.bash
+
+cd ..
