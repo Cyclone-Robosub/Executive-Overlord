@@ -10,11 +10,6 @@ source install/setup.bash
 
 cd ros2_ws/src/
 
-. install/setup.bash
-cd build/inerital-sense-sdk
-./inertial_sense_ros2_node > IMUross.txt &
-cd ../../../../
-
 
 #Assuming in ros2_ws/src 
 cd src/
