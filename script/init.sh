@@ -1,6 +1,12 @@
 #!/bin/bash
 
 git submodule update --init --recursive
+
+# not sure why this is the way it is but it is
+cd src/Thrust-Control
+git submodule update --init --recursive
+cd ../..
+
 git submodule foreach git reset --hard
 git submodule foreach git pull origin main
 
