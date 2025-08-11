@@ -1,21 +1,30 @@
-[submodule "ExecutiveMainLoop"]
-	path = ExecutiveMainLoop
-	url = https://github.com/Cyclone-Robosub/ExecutiveMainLoop.git
 [submodule "Thrust-Control"]
-	path = Thrust-Control
+	path = src/Thrust-Control
 	url = https://github.com/Cyclone-Robosub/Thrust-Control.git
-[submodule "StateSaver"]
-	path = StateSaver
+[submodule "crs_dvl"]
+	path = src/crs_dvl
+	url = https://github.com/Cyclone-Robosub/crs_dvl.git
+[submodule "CycloneDashboard"]
+	path = src/CycloneDashboard
+	url = https://github.com/Cyclone-Robosub/CycloneDashboard.git
+[submodule "CycloneDashboard"]
+	path = src/CycloneDashboard
+	url = https://github.com/Cyclone-Robosub/CycloneDashboard.git
+[submodule "src/StateSaver"]
+	path = src/StateSaver
 	url = https://github.com/Cyclone-Robosub/StateSaver.git
-[submodule "ros2_ws/src/inertial-sense-sdk"]
-	path = ros2_ws/src/inertial-sense-sdk
-	url = https://github.com/Cyclone-Robosub/inertial-sense-sdk.git
-[submodule "Robosub-CLTool"]
-	path = Robosub-CLTool
+[submodule "src/Robosub-CLTool"]
+	path = src/Robosub-CLTool
 	url = https://github.com/Cyclone-Robosub/Robosub-CLTool.git
-[submodule "Research_Cyclone"]
-	path = Research_Cyclone
+[submodule "src/Research_Cyclone"]
+	path = src/Research_Cyclone
 	url = https://github.com/Cyclone-Robosub/Research_Cyclone.git
-[submodule "crs_common"]
-	path = crs_common
+[submodule "src/crs_common"]
+	path = src/crs_common
 	url = https://github.com/Cyclone-Robosub/crs_common.git
+[submodule "src/Battery_Management"]
+	path = src/Battery_Management
+	url = https://github.com/Cyclone-Robosub/Battery_Management.git
+[submodule "src/nucleus_driver"]
+	path = src/nucleus_driver
+	url = https://github.com/NortekSupport/nucleus_driver.git

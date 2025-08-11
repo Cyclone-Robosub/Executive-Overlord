@@ -15,7 +15,7 @@
 
 # Editor Stuff
 *.swp
-
+build
 # Dependency directories (if you use them)
 /libs/
 /external/
@@ -33,3 +33,15 @@
 ros2_ws/src/build
 ros2_ws/src/install
 ros2_ws/src/log
+
+install 
+log
+
+# clangd stuff
+.cache/
+
+# Virtual environment
+venv/
+
+# Output Files
+state.csv
