@@ -1,4 +1,4 @@
-. script/build.sh
+. script/mock_pi_build.sh
 
 cd src/Thrust-Control
 . script/runTests.sh
