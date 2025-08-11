@@ -22,8 +22,7 @@ source /opt/ros/jazzy/setup.bash
 . install/setup.bash
 
 colcon test \
-  --ctest-args \
-    -j 1 \
+  --executor sequential \
   --packages-select  \
     thrust_control \
     battery_management \
