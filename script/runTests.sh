@@ -1,18 +1,19 @@
 . script/mock_pi_build.sh
 
-cd src/Thrust-Control
-. script/runTests.sh
+cd src/build/thrust_control
+./thrust_control_tests
 
-cd include/Command_Interpreter/
-. script/test.sh
+cd include/Command_Interpreter
+./propulsion_test
 
-cd ../exported-PID-control
-. script/test.sh
+cd ../exported-PID-control/test
+./controller_test
 
-cd ../../../Robosub-CLTool
-. script/test_detailed.sh
 
-cd ../StateSaver
-. script/runTests.sh
+cd ../../../../state_saver
+./state_saver_test
+
+cd ../battery_management
+./battery_management_test
 
 cd ../..
