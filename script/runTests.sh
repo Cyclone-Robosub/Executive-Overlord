@@ -16,4 +16,4 @@ cd ../../../../state_saver
 cd ../battery_management
 ./battery_management_test
 
-cd ../..
+cd ../../..
