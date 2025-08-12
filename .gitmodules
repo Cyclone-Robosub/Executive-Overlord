@@ -7,9 +7,6 @@
 [submodule "CycloneDashboard"]
 	path = src/CycloneDashboard
 	url = https://github.com/Cyclone-Robosub/CycloneDashboard.git
-[submodule "CycloneDashboard"]
-	path = src/CycloneDashboard
-	url = https://github.com/Cyclone-Robosub/CycloneDashboard.git
 [submodule "src/StateSaver"]
 	path = src/StateSaver
 	url = https://github.com/Cyclone-Robosub/StateSaver.git
