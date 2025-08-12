@@ -1,6 +1,8 @@
-. script/mock_pi_build.sh
 
-cd src/build/thrust_control
+cd src/Robosub-CLTool
+colcon test --packages-select pwm_cltool --pytest-with-coverage --pytest-args --cov-report=term --event-handlers console_direct+
+
+cd ../build/thrust_control
 ./thrust_control_tests
 
 cd include/Command_Interpreter
