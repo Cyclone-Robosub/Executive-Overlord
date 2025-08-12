@@ -1,3 +1,4 @@
+. script/mock_pi_build.sh
 
 cd src/Robosub-CLTool
 colcon test --packages-select pwm_cltool --pytest-with-coverage --pytest-args --cov-report=term --event-handlers console_direct+

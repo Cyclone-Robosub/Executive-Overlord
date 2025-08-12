@@ -16,7 +16,8 @@ colcon build \
   nucleus_driver_ros2 \
   thrust_control \
   state_saver \
-  battery_management
+  battery_management \
+  pwm_cltool
   
 . install/setup.bash
 

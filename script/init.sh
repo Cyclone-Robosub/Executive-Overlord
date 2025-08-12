@@ -7,8 +7,6 @@ git submodule update --init --recursive
 #git submodule update --init --recursive
 #cd ../..
 
-git submodule foreach --recursive 'git reset --hard'
-git submodule foreach --recursive 'branch=$(git rev-parse --abbrev-ref HEAD); if [ "$branch" != "HEAD" ]; then git pull --ff-only origin "$branch"; else echo "Skipping detached HEAD in $name"; fi'
 
 # Nucleus stuff
 cd src/nucleus_driver/ros2

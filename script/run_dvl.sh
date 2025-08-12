@@ -34,15 +34,6 @@ cd build/crs_dvl
 pwd
 ./crs_dvl &
 cd $ws_src
-
-cd build/state_saver
-./state_saver &
-cd $ws_src
-
-cd build/thrust_control
-./thrust_control &
-cd $ws_src
-
-jobs -p > scripts/jobs.txt
+cd ..
 
 wait
