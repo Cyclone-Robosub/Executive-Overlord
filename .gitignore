@@ -33,3 +33,12 @@ ros2_ws/src/log
 
 install 
 log
+
+# clangd stuff
+.cache/
+
+# Virtual environment
+venv/
+
+# Output Files
+state.csv
