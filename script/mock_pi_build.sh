@@ -17,11 +17,10 @@ colcon build \
   thrust_control \
   state_saver \
   battery_management \
-  pwm_cltool \ 
+  pwm_cltool \
+  waypoint_executive
+
   
-cd WaypointExecutive
-colcon build 
-cd ../
 
 . install/setup.bash
 
