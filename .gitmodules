@@ -25,6 +25,3 @@
 [submodule "src/nucleus_driver"]
 	path = src/nucleus_driver
 	url = https://github.com/NortekSupport/nucleus_driver.git
-[submodule "src/WaypointExecutive"]
-	path = src/WaypointExecutive
-	url = https://github.com/Cyclone-Robosub/WaypointExecutive.git

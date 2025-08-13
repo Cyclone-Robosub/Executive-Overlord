@@ -23,6 +23,9 @@ build
 # Build directories
 /build/
 /bin/
+/log/
+/build/
+/install/
 
 # System files
 .DS_Store
