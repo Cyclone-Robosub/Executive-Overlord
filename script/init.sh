@@ -3,9 +3,9 @@
 git submodule update --init --recursive
 
 # not sure why this is the way it is but it is
-#cd src/Thrust-Control
-#git submodule update --init --recursive
-#cd ../..
+cd src/Thrust-Control
+git submodule update --init --recursive
+cd ../..
 
 
 # Nucleus stuff
