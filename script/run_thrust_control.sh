@@ -18,6 +18,7 @@ source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 
 cd build/thrust_control
+export ROS_DOMAIN_ID=4
 ./thrust_control &
 cd $ws_src
 
