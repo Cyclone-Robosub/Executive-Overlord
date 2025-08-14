@@ -4,7 +4,6 @@ killgroup(){
   kill 0
 }
 #NOTE : After the end of every section make sure the directory returns to the directory that this build script is located.
-export ROS_DOMAIN_ID=2
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 
