@@ -13,5 +13,6 @@ pwd
 # export ROS_DOMAIN_ID=2
 source /opt/ros/jazzy/setup.bash
 . install/setup.bash
+export ROS_DOMAIN_ID=4
 
 ros2 run pwm_cltool pwm_cltool_node

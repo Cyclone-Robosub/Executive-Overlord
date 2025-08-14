@@ -32,6 +32,8 @@ cd $ws_src
 
 cd build/crs_dvl
 pwd
+export ROS_DOMAIN_ID=4
+
 ./crs_dvl &
 cd $ws_src
 cd ..

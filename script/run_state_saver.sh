@@ -18,6 +18,8 @@ source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 
 cd build/state_saver
+export ROS_DOMAIN_ID=4
+
 ./state_saver &
 cd $ws_src
 cd ..
